@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "manifest-file-relocator"
+version = "1.0.0"
+description = "Dry-run-first, content-addressed, reversible file relocation from reviewed manifests."
+readme = "README.md"
+requires-python = ">=3.11"
+license = "MIT"
+license-files = ["LICENSE.md"]
+
+[project.scripts]
+manifest-file-relocator = "manifest_file_relocator.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["manifest_file_relocator*"]

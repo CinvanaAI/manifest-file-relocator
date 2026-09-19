@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "operations": [
+    {
+      "id": "accept-text",
+      "from": "inbox",
+      "to": "accepted",
+      "glob": "*.txt"
+    }
+  ]
+}
