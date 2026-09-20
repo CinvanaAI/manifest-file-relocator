@@ -1,0 +1,13 @@
+{
+  "synthetic": true,
+  "planned_files": 2,
+  "stale_plan_refused_before_move": true,
+  "execution_status": "complete",
+  "rollback_status": "complete",
+  "original_bytes_restored": true,
+  "durable_documents": [
+    "plan.json",
+    "execution.json",
+    "rollback.json"
+  ]
+}

@@ -25,7 +25,9 @@ Source: [manifest_file_relocator/planner.py](manifest_file_relocator/planner.py)
 
 ## Use it for your work
 
-Use `manifest-file-relocator plan WORKSPACE MANIFEST --output plan.json`, review it, then use the CLI’s exact `--approve-sha256` flow. Keep the plan and execution journal until rollback is no longer needed.
+Use `manifest-file-relocator plan WORKSPACE MANIFEST --output plan.json`, review it, then use the CLIâ€™s exact `--approve-sha256` flow. Keep the plan and execution journal until rollback is no longer needed.
+
+[Complete CLI rehearsal and recovery guide](docs/OPERATING.md) | [Origin and continuation](ORIGIN.md)
 
 ## Scope
 
